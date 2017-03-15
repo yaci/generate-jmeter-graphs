@@ -33,7 +33,7 @@ for %%R in (%VISUAL_REPORTS%) do (
                           --plugin-type %%R ^
                           --width 1920 --height 1080 ^
                           --paint-markers no ^
-						  --exclude-label-regex true
+                          --exclude-label-regex true
 )
 
 for %%R in (%CSV_REPORTS%) do (
