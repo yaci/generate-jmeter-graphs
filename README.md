@@ -59,3 +59,6 @@ This may appear when you are working on some kind of emulator (like cygwin, git 
 `File ... cannot be loaded because running scripts is disabled on this system.`   
 You need to allow PS to run scripts first by executing   
 `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`
+
+4. Problems with viewing saveservice.properties file in Windows' Notepad   
+On Windows you won't be able to edit the file in Notepad because the file uses unix line endings. I can only hope that everyone is using [Notepad++](https://notepad-plus-plus.org/) so this won't be an issue.
