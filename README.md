@@ -22,12 +22,13 @@ Prerequisites
 * [JMeter](https://jmeter.apache.org/download_jmeter.cgi) (you can run it on older versions (2.x) too)
 * for JMeter 2.x you need to install plugins manually [JMeter Plugins](http://jmeter-plugins.org)
 * for JMeter 3.x I recomment to use plugins manager (download the Plugins Manager [JAR](https://jmeter-plugins.org/get/) file and put it into JMeter's lib/ext directory. Then start JMeter and go to "Options" menu to access the Plugins Manager. More details: https://jmeter-plugins.org/wiki/PluginsManager/)
-* using plugins manager please install
+* using plugins manager please install the following plugins
   * Command-Line Graph Plotting Tool (aka JMeter command line plugin in older versions)
   * 3 basic graphs
   * 5 additional graphs
-  * KPI vs KPI Graphs plugin
-  * synthesis report
+  * Distribution/Percentile Graphs
+  * KPI vs KPI Graphs
+  * synthesis report 
 
 Running tests
 -------------
