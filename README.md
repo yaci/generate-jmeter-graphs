@@ -1,10 +1,10 @@
 Purpose
 =======
-This project contains set of scripts for analysing JMeter test results, both in Windows and Unix systems. The nice thing is that the script is multi-threaded so graph generation is much faster.
+This project contains set of scripts for analysing JMeter test results, both in Windows and Unix systems. The solution is based on jmeter plugins and Generate Graphs From Command Line plugin that comes with that set. This scripts are just wrappers for the aforementioned plugin. With these scripts the process is multithreaded and therefore much faster.
 
 Why to use it?
 -------------
-JMeter >3.0 comes with native graph generation. One may argue that it's pointless to use the old, plugin-based way. It is true for many projects, but there are some benefits to old way
+JMeter >3.0 comes with native graph generation, so why to use the old, plugin-based way? Well, the old way has still some benefits
 * it's much less memory consuming. For large result files you can easily run out of memory when trying to generate jmeter dashboard. In such case "the old way" is the only way.
 * old graphs may be more readable (I know it's subjective)
 
